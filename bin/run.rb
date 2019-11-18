@@ -1,5 +1,7 @@
 require_relative '../config/environment'
 
 
+command = Cli.new
+command.intro
 
-puts "HELLO WORLD"
+#binding.pry
